@@ -5,7 +5,7 @@ import Image from 'next/image';
 function Header() {
   return (
     <header className={styles.header}>
-      <Image className={styles.logo} src={Logo} />
+      <Image alt='easybank logo' className={styles.logo} src={Logo} />
       <ul className={styles.list}>
         <a className={styles.navlink}>Home</a>
         <a className={styles.navlink}>About</a>
