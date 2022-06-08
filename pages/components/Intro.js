@@ -1,6 +1,7 @@
 import styles from '/home/jaheel/bank-landing-page/pages/components/Intro.module.css';
 import IntroBackground from '/home/jaheel/bank-landing-page/public/images/bg-intro-desktop.svg';
 import Image from 'next/image';
+import Phones from '/home/jaheel/bank-landing-page/public/images/image-mockups.png';
 
 function Intro() {
   return (
@@ -12,6 +13,9 @@ function Intro() {
       </div>
       <div className={styles.background}>
          <Image alt='' src={IntroBackground} />
+      </div>
+      <div className={styles.phones}>
+         <Image src={Phones} alt='' />
       </div>
     </div>
   )
