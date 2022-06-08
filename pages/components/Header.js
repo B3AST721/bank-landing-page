@@ -5,13 +5,13 @@ import Image from 'next/image';
 function Header() {
   return (
     <header className={styles.header}>
-      <Image src={Logo} />
+      <Image className={styles.logo} src={Logo} />
       <ul className={styles.list}>
-        <a>Home</a>
-        <a>About</a>
-        <a>Contact</a>
-        <a>Blog</a>
-        <a>Careers</a>
+        <a className={styles.navlink}>Home</a>
+        <a className={styles.navlink}>About</a>
+        <a className={styles.navlink}>Contact</a>
+        <a className={styles.navlink}>Blog</a>
+        <a className={styles.navlink}>Careers</a>
       </ul>
       <button className={styles.invite}>Request Invite</button>
     </header>
