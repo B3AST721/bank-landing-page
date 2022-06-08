@@ -1,0 +1,38 @@
+.introbigtext {
+    font-weight: 400;
+    font-size: xxx-large;
+    color: hsl(233, 26%, 24%);
+}
+
+.introsmalltext {
+    color: hsl(233, 8%, 62%);
+    margin-top: -5px;
+}
+
+.invite {
+    border: none;
+    height: 30px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%) , hsl(192, 70%, 51%));
+    border-radius: 20px;
+    padding: 21px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: hsl(0, 0%, 98%);
+    font-size: smaller;
+    width: max-content;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,4 +1,4 @@
-import '/home/jaheel/bank-landing-page/pages/components/IntroPictures.module.css';
+import styles from '/home/jaheel/bank-landing-page/pages/components/IntroPictures.module.css';
 
 function IntroPictures() {
   return (
