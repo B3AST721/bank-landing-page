@@ -1,0 +1,16 @@
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 10px 100px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+}
+
+.invite {
+    height: 20px;
+}
